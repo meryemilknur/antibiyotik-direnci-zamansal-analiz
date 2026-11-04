@@ -59,3 +59,24 @@ EARS-Net verileri belirli klinik örneklerden ve katılımcı laboratuvarların 
 - Veri setini ve lisans/kullanım koşullarını doğrulamak.
 - README güncellemesini ve araştırma önerisini haftalık ilerlemeye göre düzenlemek.
 - Veri indirme ve analiz adımlarını ilerleyen haftalarda eklemek.
+- ## UML Diyagramları
+
+Projenin yazılım yapısını ve çalışma sürecini modellemek amacıyla üç farklı UML diyagramı hazırlanmıştır.
+
+### 1. Use Case Diagram (Kullanım Durumu Diyagramı)
+
+Sistemin kullanıcısını ve kullanıcının gerçekleştirebileceği temel işlemleri göstermektedir. Veri yükleme, yıl ve antibiyotik seçimi, direnç analizi, grafik oluşturma ve raporlama işlemleri modellenmiştir.
+
+![Use Case Diagram](UseCaseDiagram.png.png)
+
+### 2. Activity Diagram (Etkinlik Diyagramı)
+
+Antibiyotik direnç verilerinin alınmasından analiz edilmesine ve sonuçların raporlanmasına kadar olan işlem akışını göstermektedir. Veri kontrolü ve uygunluk karar noktası da diyagramda yer almaktadır.
+
+![Activity Diagram](ActivityDiagram.png.png)
+
+### 3. Class Diagram (Sınıf Diyagramı)
+
+Projenin temel sınıflarını, özelliklerini, metotlarını ve sınıflar arasındaki ilişkileri göstermektedir. VeriSeti, VeriKaydi, DirencAnalizi, Gorsellestirme ve Rapor sınıfları modellenmiştir.
+
+![Class Diagram](ClassDiagram.png.png)
