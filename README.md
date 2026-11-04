@@ -79,4 +79,4 @@ Antibiyotik direnç verilerinin alınmasından analiz edilmesine ve sonuçların
 
 Projenin temel sınıflarını, özelliklerini, metotlarını ve sınıflar arasındaki ilişkileri göstermektedir. VeriSeti, VeriKaydi, DirencAnalizi, Gorsellestirme ve Rapor sınıfları modellenmiştir.
 
-![Class Diagram](ClassDiagram.png.png)
+![Class Diagram](ClassDiyagram.png.png)
